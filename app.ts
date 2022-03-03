@@ -2,7 +2,7 @@ import express from "express"
 import {config as envConfig} from "dotenv"
 import cookieParser from "cookie-parser"
 
-import indexRoute from "./routes/index"
+import indexRoute from "./src/routes/index"
 
 const app = express()
 envConfig()
