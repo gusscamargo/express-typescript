@@ -1,9 +1,9 @@
 {
-  "name": "api-bom-dia",
-  "version": "0.1.0",
-  "description": "Api para mensagens de bom dia",
+  "name": "template-typescript-express",
+  "version": "1.2.0",
+  "description": "Criação de um template para projetos Express utilizando TypeScript",
   "main": "app.ts",
-  "repository": "https://github.com/gusscamargo/api-bom-dia",
+  "repository": "https://github.com/thelostgus/express-typescript",
   "author": "Gustavo Michels de Camargo",
   "license": "MIT",
   "scripts": {
