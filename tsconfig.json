@@ -99,6 +99,6 @@
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
   "include": ["./**/*"],
-  "assets": ["./**/public/*", "./**/*.hbs"],
+  // "assets": ["./**/public/*", "./**/*.hbs"],
   "exclude": ["node_modules"]
 }
