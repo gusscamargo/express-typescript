@@ -1,6 +1,6 @@
 node_modules
 dist
-prisma/migrations
+src/models/migrations
 # Keep environment variables out of version control
 yarn.lock
 yarn-error.log
