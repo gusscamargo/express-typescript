@@ -1,9 +1,5 @@
-import { Router } from "express";
+import Home from "./home"
 
-import IndexController from "../controllers/index"
-
-const route = Router()
-
-route.get("*", IndexController.all)
-
-export default route
+export default {
+    Home
+}

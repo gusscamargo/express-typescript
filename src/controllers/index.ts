@@ -1,9 +1,5 @@
-import type {Request, Response} from "express"
+import Home from "./Home";
 
-class Index {
-    all(req: Request, res: Response){
-        res.send("Ola Mundo")
-    }
+export {
+    Home
 }
-
-export default new Index
