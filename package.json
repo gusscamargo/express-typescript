@@ -11,7 +11,9 @@
     "clean": "rimraf dist/",
     "copy-views": "copyfiles -u 1 ./src/**/*.hbs dist/src",
     "copy-public": "copyfiles -u 1 ./public/**/* dist/public",
-    "build": "yarn clean && tsc && yarn copy-views && yarn copy-public",
+    "copy-prisma": "copyfiles -u 1 ./src/**/*.prisma dist/src",
+    "copy-env": "copyfiles .env dist/",
+    "build": "yarn clean && tsc && yarn copy-env && yarn copy-views && yarn copy-public && yarn copy-prisma",
     "migrate": "yarn prisma migrate dev --name init"
   },
   "prisma": {
