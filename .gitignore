@@ -1,6 +1,5 @@
-node_modules
-dist
-src/models/migrations
-# Keep environment variables out of version control
+node_modules/
+dist/
+src/models/migrations/
 yarn.lock
 yarn-error.log
