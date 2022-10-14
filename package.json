@@ -7,9 +7,10 @@
   "author": "Gustavo Michels de Camargo",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules ./app.ts",
-    "start": "ts-node --transpile-only app.ts",
-    "build": ""
+    "dev": "yarn prismix && ts-node-dev --inspect --transpile-only --ignore-watch node_modules ./app.ts",
+    "start": "yarn prismix && ts-node --transpile-only app.ts",
+    "prismix": "npx prismix && prisma format",
+    "build": "tsc"
   },
   "prisma": {
     "schema": "./src/models/schema.prisma"
@@ -34,5 +35,8 @@
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.5.5",
     "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "prismix": "^1.0.22"
   }
 }

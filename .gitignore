@@ -3,3 +3,4 @@ dist/
 src/models/migrations/
 yarn.lock
 yarn-error.log
+src/models/schema.prisma

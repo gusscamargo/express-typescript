@@ -1,0 +1,6 @@
+model Usuario{
+  id String @default(uuid()) @id
+  nome String
+  senha String
+  email String @unique
+}
