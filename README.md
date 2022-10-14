@@ -1,8 +1,19 @@
-# express-typescript
+# Template Express-Typescript
 
 
 ## Objetivo
-Criação de um template para projetos Express utilizando TypeScript
+Criação de um template para projetos Express SSR utilizando TypeScript.
+
+## Componentes
+- Linguagem: Typescript
+- Web Framework: Express
+- Engine de visualização: Handlebars
+- ORM para banco de dados: Prisma
+- Estruturção: MVC
+
+### Extra
+- UUID
+- express-session
 
 ## Como instalar
 1. Clone este repositorio ou clique em "Use this Template" no github
