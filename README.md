@@ -9,7 +9,7 @@ Criação de um template para projetos Express SSR utilizando TypeScript.
 - Web Framework: Express
 - Engine de visualização: Handlebars
 - ORM para banco de dados: Prisma
-- Estruturção: MVC
+- Estrutura: MVC
 
 ### Extra
 - UUID
